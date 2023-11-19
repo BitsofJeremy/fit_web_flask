@@ -61,7 +61,7 @@ def index():
     # brand_logo_url = url_for('static', filename='images/BG_LOGO_horizontal-white-words.png')
     video_url = url_for(
         'static',
-        filename='videos/video.mp4'
+        filename='videos/background_video.mp4'
     )
     return render_template(
         'index.html',
